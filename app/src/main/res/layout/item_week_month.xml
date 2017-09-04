@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="August"
+        android:id="@+id/lbl_month"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_cn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="CN"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_h"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="H"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_b"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_t"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="T"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_n"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="N"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_s"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="S"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_bay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</LinearLayout>
